@@ -61,12 +61,14 @@ export default function Home() {
           <p className="text-xl text-[#EADEC9] mb-8 text-center">
             Because you deserve no less.
           </p>
+          <a href="tel:+917418326946">
           <button
             className="uppercase text-white bg-[#2A9D8F] px-8 py-3 font-bold hover:bg-[#5da18d] transition"
             style={{ borderRadius: 0 }}
           >
             CONTACT ME
           </button>
+            </a>
         </div>
 
         {/* Overlapping Card Section */}
