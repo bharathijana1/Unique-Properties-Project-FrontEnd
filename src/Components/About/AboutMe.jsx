@@ -24,22 +24,26 @@ export default function AboutMe() {
             Hi, I’m VijayJoseph, a dedicated and driven real estate agent serving the OMR region in Chennai. I have a deep understanding of the local market and a passion for helping clients achieve their real estate and investment goals. Whether you’re buying your first home, selling your current property, or investing in real estate, I am here to guide you every step of the way. My personalized approach, combined with my extensive market knowledge and strong negotiation skills, ensures that my clients receive the best possible outcome. I believe in open communication and keeping my clients informed throughout the entire process. My goal is to make your real estate experience as smooth and stress-free as possible. I would be honored to put my expertise to work for you. Contact me today to schedule a consultation.
           </p>
 
+          <a href="tel:+917418326946">
           <button
             className="bg-[#2A9D8F] w-full lg:w-3/4 text-white py-3 px-6 uppercase font-semibold hover:bg-[#23765e] transition mt-4"
             style={{ borderRadius: 0 }}
           >
             Contact Me
           </button>
+            </a>
 
           <div className="flex flex-col sm:flex-row sm:items-center mt-6 gap-4 sm:gap-6 text-lg font-medium">
+            <a href="tel:+917418326946">
             <div className="flex items-center gap-2 text-[#2A9D8F]">
               <FaPhoneAlt />
               <span className="text-[#586C89]">+91 74183 26946</span>
             </div>
-            <div className="flex items-center gap-2 text-[#2A9D8F]">
-              <MdEmail />
-              <span className="text-[#586C89]">vjuniqueproperties@gmail.com</span>
-            </div>
+            </a>
+            <a href="mailto:vjuniqueproperties@gmail.com" className="flex items-center gap-2 text-[#2A9D8F]">
+            <MdEmail />
+            <span className="text-[#586C89]">vjuniqueproperties@gmail.com</span>
+          </a>
           </div>
         </div>
       </div>
