@@ -89,20 +89,22 @@ export default function ServicesContent() {
                 ))}
               </ul>
 
+              <a href="tel:+917418326946">
               <button className="w-full uppercase text-white bg-[#2A9D8F] px-8 py-3 mt-6 font-bold hover:bg-[#5da18d] transition">
                 Contact Me
               </button>
+                </a>
 
               {/* Contact Info */}
               <div className="flex flex-col sm:flex-row gap-4 text-sm font-medium mt-4">
-                <div className="flex items-center gap-2 text-[#2A9D8F]">
+                <a href="tel:+917418326946" className="flex items-center gap-2 text-[#2A9D8F]">
                   <FaPhoneAlt />
                   <span className="text-[#586C89]">+91 74183 26946</span>
-                </div>
-                <div className="flex items-center gap-2 text-[#2A9D8F]">
+                </a>
+                <a href="mailto:vjuniqueproperties@gmail.com" className="flex items-center gap-2 text-[#2A9D8F]">
                   <MdEmail />
                   <span className="text-[#586C89]">vjuniqueproperties@gmail.com</span>
-                </div>
+                </a>
               </div>
             </div>
           </div>
