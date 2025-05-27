@@ -7,7 +7,7 @@ export default function AboutMe() {
     <div className="w-full lg:w-3/5 mx-auto px-4">
       <div className="flex flex-col-reverse md:flex-row-reverse gap-6 items-start">
         {/* Agent Image - Right on md+, Top on mobile */}
-        <div className="w-full md:w-1/3 flex justify-center">
+        <div className="order-2 md:order-1 w-full md:w-1/3 flex justify-center">
           <img
             src={agent}
             alt="Agent"
@@ -16,7 +16,7 @@ export default function AboutMe() {
         </div>
 
         {/* Text Content */}
-        <div className="w-full md:w-2/3 break-words">
+        <div className="order-1 w-full md:w-2/3 break-words">
           <h2 className="text-3xl sm:text-4xl capitalize mb-4 font-bold">
             About Me
           </h2>
