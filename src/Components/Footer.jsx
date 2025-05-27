@@ -1,6 +1,6 @@
 import { FaPhoneAlt, FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import agent from "./img/agent.png";
+import agent from "./img/Agent.png";
 import logo from "./img/logo.png";
 import footerimg1 from "./img/Footerimages/footerimg1.png";
 import footerimg2 from "./img/Footerimages/footerimg2.png";
