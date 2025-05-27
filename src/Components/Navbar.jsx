@@ -45,7 +45,7 @@ const Navbar = () => {
 
           {/* WhatsApp Icon */}
           <a
-            href="https://wa.me/6383765538"
+            href="https://wa.me/7418326946"
             target="_blank"
             rel="noopener noreferrer"
             className="text-2xl text-gray-700 hover:text-[#2A9D8F] transition-colors duration-200"
@@ -86,7 +86,7 @@ const Navbar = () => {
 
           {/* WhatsApp for Mobile */}
           <a
-            href="https://wa.me/6383765538"
+            href="https://wa.me/7418326946"
             target="_blank"
             rel="noopener noreferrer"
             className="block"
