@@ -1,6 +1,6 @@
 import { FaPhoneAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
-import agent from "../img/agent.png";
+import agent from "../img/Agent.png";
 
 export default function AboutMe() {
   return (
