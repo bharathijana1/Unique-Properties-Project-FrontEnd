@@ -1,8 +1,6 @@
 import { FaPhoneAlt, FaInstagram } from "react-icons/fa";
-import {Link} from "react-router-dom";
 import { MdEmail } from "react-icons/md";
 import agent from "./img/Agent.png";
-import logo from "./img/logo.png";
 import footerimg1 from "./img/Footerimages/footerimg1.png";
 import footerimg2 from "./img/Footerimages/footerimg2.png";
 import footerimg3 from "./img/Footerimages/footerimg3.png";
@@ -74,19 +72,17 @@ const Footer = () => {
          <div className="w-full md:w-3/4">
            <div className="flex flex-col md:flex-row items-center gap-6 pb-1">
              {/* Logo */}
-             <Link to="/">
-             <div className="flex items-center gap-4 mb-1 md:mb-0">
+             {/* <Link to="/" className="flex items-center gap-4 mb-1 md:mb-0">
                <img src={logo} alt="Logo" className="h-20 w-auto" />
-             </div>
-               </Link>
+             </Link> */}
 
              {/* Contact Info */}
-             <div className="flex  flex-col lg:flex-row item-start lg:items-center gap-6 text-lg font-medium">
-               <a href="tel:+917418326946" className="flex flex-col lg:flex-row item-start lg:items-center gap-2 text-[#2A9D8F]">
+             <div className=" w-full flex  flex-col lg:flex-row justify-center m-4 lg:items-center gap-6 text-lg font-medium">
+               <a href="tel:+917418326946" className="flex flex-row justify-center items-center gap-2 text-[#2A9D8F]">
                  <FaPhoneAlt />
                  <span className="text-[#586C89]">+91 74183 26946</span>
                </a>
-               <a href="mailto:vjuniqueproperties@gmail.com" className="flex flex-col lg:flex-row items-start lg:items-center gap-2 text-[#2A9D8F]">
+               <a href="mailto:vjuniqueproperties@gmail.com" className="flex justify-center flex-row items-center gap-2 text-[#2A9D8F]">
                  <MdEmail />
                  <span className="text-[#586C89]">vjuniqueproperties@gmail.com</span>
                </a>
@@ -100,11 +96,11 @@ const Footer = () => {
 
        {/* Legal Bottom */}
        <div className="bg-white text-xs text-gray-500 px-6 pt-4 pb-6 flex flex-col md:flex-row justify-between w-full md:w-3/4 mx-auto">
-         <div className="flex gap-4 mb-2 md:mb-0">
+         <div className="flex justify-around gap-4 mb-2 md:mb-0">
            <a href="#" className="hover:underline">› Terms & Conditions</a>
            <a href="#" className="hover:underline">› Privacy Policy</a>
          </div>
-        <div>© {year} vjuniqueproperties. All rights reserved.</div>
+        <div className="text-center">© {year} vjuniqueproperties. All rights reserved.</div>
 </div>
     </>
   );
