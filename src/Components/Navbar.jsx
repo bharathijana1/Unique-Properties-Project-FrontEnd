@@ -56,7 +56,7 @@
 // export default Navbar;
 
 import React, { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi"; // Hamburger icons
 import logo from "./img/logo.png";
 import whatsapplogo from "./img/whatsapplogo.png";
@@ -76,7 +76,9 @@ const Navbar = () => {
     <nav className="w-full bg-white shadow-md pe-4">
       <div className="flex items-center justify-between">
         {/* Logo */}
+        <Link to="/">
         <img src={logo} alt="Logo" className="h-20 w-auto" />
+          </Link>
 
         {/* Desktop Menu */}
         <div className="hidden md:flex items-center space-x-6">
