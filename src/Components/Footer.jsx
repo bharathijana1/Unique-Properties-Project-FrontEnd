@@ -73,20 +73,22 @@ const Footer = () => {
          <div className="w-full md:w-3/4">
            <div className="flex flex-col md:flex-row items-center gap-6 pb-1">
              {/* Logo */}
+             <Link to="/">
              <div className="flex items-center gap-4 mb-1 md:mb-0">
                <img src={logo} alt="Logo" className="h-20 w-auto" />
              </div>
+               </Link>
 
              {/* Contact Info */}
              <div className="flex  flex-col lg:flex-row item-start lg:items-center gap-6 text-lg font-medium">
-               <div className="flex flex-col lg:flex-row item-start lg:items-center gap-2 text-[#2A9D8F]">
+               <a href="tel:+917418326946" className="flex flex-col lg:flex-row item-start lg:items-center gap-2 text-[#2A9D8F]">
                  <FaPhoneAlt />
                  <span className="text-[#586C89]">+91 74183 26946</span>
-               </div>
-               <div className="flex flex-col lg:flex-row items-start lg:items-center gap-2 text-[#2A9D8F]">
+               </a>
+               <a href="mailto:vjuniqueproperties@gmail.com" className="flex flex-col lg:flex-row items-start lg:items-center gap-2 text-[#2A9D8F]">
                  <MdEmail />
                  <span className="text-[#586C89]">vjuniqueproperties@gmail.com</span>
-               </div>
+               </a>
              </div>
            </div>
 
