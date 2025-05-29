@@ -3,7 +3,10 @@ import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi"; // Hamburger icons
 import logo from "./img/logo.png";
+// import logo1 from "./img/logo1.png";
 import whatsapplogo from "./img/whatsapplogo.png";
+import whatsapplogofloating from "./img/whatsapplogofloating.png";
+
 
 const Navbar = () => {
   const [active, setActive] = useState("Home");
@@ -17,6 +20,7 @@ const Navbar = () => {
   ];
 
   return (
+    <>
     <nav className="w-full bg-white shadow-md pe-4">
       <div className="flex items-center justify-between">
         {/* Logo */}
@@ -96,6 +100,16 @@ const Navbar = () => {
         </div>
       )}
     </nav>
+      {/* Floating WhatsApp Button - Only on Mobile */}
+    <a
+      href="https://wa.me/7418326946"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="md:hidden fixed bottom-4 right-4 bg-transparent rounded-half shadow-lg z-50"
+    >
+      <img src={whatsapplogofloating} alt="WhatsApp" className="h-16 w-16 rounded-half" />
+    </a>
+    </>
   );
 };
 
