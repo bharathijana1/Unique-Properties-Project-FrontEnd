@@ -23,7 +23,7 @@ const Footer = () => {
 
           {/* Floating Contact Card */}
           <div className="-ms-0 lg:-ms-12 bg-white p-6 shadow-lg max-w-sm z-10">
-            <h2 className="text-2xl font-semibold text-center mb-2 text-black -mt-18">
+            <h2 className="text-2xl font-semibold text-center mb-2 text-black mt-6 md:-mt-18">
               I will help you<br />find the property<br />of your dreams.
             </h2>
             <p className="text-gray-600 mb-4 text-sm">
