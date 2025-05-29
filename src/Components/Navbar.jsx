@@ -105,9 +105,9 @@ const Navbar = () => {
       href="https://wa.me/7418326946"
       target="_blank"
       rel="noopener noreferrer"
-      className="md:hidden fixed bottom-4 right-4 bg-transparent rounded-half shadow-lg z-50"
+      className="md:hidden fixed bottom-4 right-4 bg-transparent rounded-2xl shadow-lg z-50"
     >
-      <img src={whatsapplogofloating} alt="WhatsApp" className="h-16 w-16 rounded-half" />
+      <img src={whatsapplogofloating} alt="WhatsApp" className="h-16 w-16 rounded-2xl" />
     </a>
     </>
   );
