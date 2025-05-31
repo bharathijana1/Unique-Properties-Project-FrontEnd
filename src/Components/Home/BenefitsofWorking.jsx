@@ -37,7 +37,9 @@ export default function BenefitsOfWorking() {
         </div>
 
         {/* CONTACT ME Button */}
-        <a href="tel:+917418326946">
+        <a  href="https://wa.me/7418326946"
+            target="_blank"
+            rel="noopener noreferrer">
         <button className="w-full uppercase text-white bg-[#2A9D8F] px-6 py-3 font-bold hover:bg-[#5da18d] transition">
           Contact Me
         </button>
