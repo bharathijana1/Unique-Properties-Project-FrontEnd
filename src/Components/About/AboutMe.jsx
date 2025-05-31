@@ -27,7 +27,7 @@ export default function AboutMe() {
             <p className="text-base sm:text-lg text-[#5C636C] mb-4">
               Whether you're buying your first home, selling a property, or making a strategic investment, I offer personalized guidance, clear communication, and expert negotiation to ensure you achieve the best possible outcome. My goal is to make your real estate experience smooth, informed, and stress-free.
             </p>
-            <p className="text-base sm:text-lg text-[#5C636C] mb-4">
+            <p className="text-base sm:text-lg text-[#5C636C]">
             Let’s connect and turn your property goals into reality.
           </p>
 
