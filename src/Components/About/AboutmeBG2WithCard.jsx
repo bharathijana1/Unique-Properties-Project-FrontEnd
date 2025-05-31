@@ -3,6 +3,8 @@ import symbol2 from "../img/Homeimages/Symbol2.png";
 import symbol3 from "../img/Homeimages/Symbol3.png";
 import symbol4 from "../img/Homeimages/Symbol4.png";
 import bgImage from "../img/Aboutmeimages/aboutmebg2.png"; 
+import { Link } from "react-router-dom";
+
 
 const cards = [
   {
@@ -77,12 +79,12 @@ export default function AboutmeBG2WithCard() {
                   </div>
 
                   {btnText === "View Service >" ? (
-                  <a
-                    href="/services"
+                  <Link
+                    to="/services"
                     className="text-left font-semibold hover:underline underline-offset-4 text-[#586C89]"
                   >
                     {btnText}
-                  </a>
+                  </Link>
                 ) : (
                   <button className="text-left font-semibold hover:underline underline-offset-4 text-[#586C89]">
                     {btnText}
