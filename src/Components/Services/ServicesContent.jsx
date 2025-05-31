@@ -98,7 +98,7 @@ export default function ServicesContent() {
                 </a>
 
               {/* Contact Info */}
-              <div className="flex flex-col sm:flex-row gap-4 text-sm font-medium mt-4">
+              <div className="flex flex-col sm:flex-row gap-4 text-sm font-medium my-4">
                 <a href="tel:+917418326946" className="flex items-center gap-2 text-[#2A9D8F]">
                   <FaPhoneAlt />
                   <span className="text-[#586C89]">+91 74183 26946</span>
