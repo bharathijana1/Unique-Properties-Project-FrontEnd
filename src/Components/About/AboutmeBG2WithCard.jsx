@@ -75,6 +75,7 @@ export default function AboutmeBG2WithCard() {
                     <h3 className="text-xl font-bold mb-2">{title}</h3>
                     <p className="mb-4 text-[#5C636C]">{content}</p>
                   </div>
+
                   {btnText === "View Service >" ? (
                   <a
                     href="/services"
