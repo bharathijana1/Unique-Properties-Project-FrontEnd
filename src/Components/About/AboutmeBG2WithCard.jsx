@@ -75,9 +75,18 @@ export default function AboutmeBG2WithCard() {
                     <h3 className="text-xl font-bold mb-2">{title}</h3>
                     <p className="mb-4 text-[#5C636C]">{content}</p>
                   </div>
+                  {btnText === "View Service >" ? (
+                  <a
+                    href="/services"
+                    className="text-left font-semibold hover:underline underline-offset-4 text-[#586C89]"
+                  >
+                    {btnText}
+                  </a>
+                ) : (
                   <button className="text-left font-semibold hover:underline underline-offset-4 text-[#586C89]">
                     {btnText}
                   </button>
+                )}
                 </div>
               </div>
             ))}
