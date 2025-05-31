@@ -23,7 +23,7 @@ const stats = [
 export default function Experience_Client_Location() {
   return (
     <div className="bg-[#586C89]">
-      <div className=" w-full flex justify-around items-center gap-4 md:gap-10 py-2">
+      <div className=" w-full flex justify-around items-center gap-4 md:gap-10 py-2  md:my-0">
         {stats.map(({ img, alt, caption }, index) => (
           <div key={index} className="flex flex-col items-center text-white text-center">
             <img src={img} alt={alt} className="w-10 h-10 object-contain" />
