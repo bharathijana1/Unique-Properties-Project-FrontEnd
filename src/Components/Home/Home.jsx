@@ -11,6 +11,8 @@ import Popular_Neighborhoods from "./Popular_Neighborhoods";
 import HowItWorks from "./HowItWorks";
 import BenefitsofWorking from "./BenefitsofWorking";
 import Testimonials from "./Testimonials";
+import { Link } from "react-router-dom";
+
 
 const cards = [
   {
@@ -97,12 +99,12 @@ export default function Home() {
                     <p className="mb-4 text-[#5C636C]">{content}</p>
                   </div>
                   {btnText === "View Service >" ? (
-                  <a
-                    href="/services"
+                  <Link
+                    to="/services"
                     className="text-left font-semibold hover:underline underline-offset-4 text-[#586C89]"
                   >
                     {btnText}
-                  </a>
+                  </Link>
                 ) : (
                   <button className="text-left font-semibold hover:underline underline-offset-4 text-[#586C89]">
                     {btnText}
