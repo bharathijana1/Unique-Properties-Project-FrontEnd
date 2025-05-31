@@ -22,7 +22,7 @@ export default function AboutMe() {
           </h2>
           <p className="text-base sm:text-lg text-[#5C636C] mt-4">
             Hi, I’m VijayJoseph, a dedicated and driven real estate agent serving the OMR region in Chennai. I have a deep understanding of the local market and a passion for helping clients achieve their real estate and investment goals. Whether you’re buying your first home, selling your current property, or investing in real estate, I am here to guide you every step of the way. My personalized approach, combined with my extensive market knowledge and strong negotiation skills, ensures that my clients receive the best possible outcome. I believe in open communication and keeping my clients informed throughout the entire process. My goal is to make your real estate experience as smooth and stress-free as possible. I would be honored to put my expertise to work for you. Contact me today to schedule a consultation.
-          </p>h
+          </p>
 
           <a href="https://wa.me/7418326946"
             target="_blank"
