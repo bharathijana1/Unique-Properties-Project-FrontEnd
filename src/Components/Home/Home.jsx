@@ -61,14 +61,16 @@ export default function Home() {
           <p className="text-xl text-[#EADEC9] mb-8 text-center">
             Because you deserve no less.
           </p>
-          <a href="tel:+917418326946">
+          <a href="https://wa.me/7418326946"
+            target="_blank"
+            rel="noopener noreferrer">
           <button
             className="uppercase text-white bg-[#2A9D8F] px-8 py-3 font-bold hover:bg-[#5da18d] transition"
             style={{ borderRadius: 0 }}
           >
             CONTACT ME
           </button>
-            </a>
+          </a>
         </div>
 
         {/* Overlapping Card Section */}
@@ -94,9 +96,18 @@ export default function Home() {
                     <h3 className="text-xl font-bold mb-2">{title}</h3>
                     <p className="mb-4 text-[#5C636C]">{content}</p>
                   </div>
+                  {btnText === "View Service >" ? (
+                  <a
+                    href="/services"
+                    className="text-left font-semibold hover:underline underline-offset-4 text-[#586C89]"
+                  >
+                    {btnText}
+                  </a>
+                ) : (
                   <button className="text-left font-semibold hover:underline underline-offset-4 text-[#586C89]">
                     {btnText}
                   </button>
+                )}
                 </div>
               </div>
             ))}
