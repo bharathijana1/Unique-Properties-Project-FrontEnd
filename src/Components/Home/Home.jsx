@@ -74,7 +74,7 @@ export default function Home() {
           />
           </h1>
 
-          <p className="text-xl text-center text-[#EADEC9]">
+          <p className="text-xl text-center text-[#EADEC9] pt-2">
             I deliver the very best in all facets of real estate
           </p>
           <p className="text-xl text-[#EADEC9] mb-8 text-center">
