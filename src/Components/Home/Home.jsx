@@ -63,7 +63,7 @@ export default function Home() {
         }}
       />
     </h1>
-          </h1>
+
           <p className="text-xl text-center text-[#EADEC9]">
             I deliver the very best in all facets of real estate
           </p>
