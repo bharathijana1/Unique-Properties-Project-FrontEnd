@@ -15,15 +15,16 @@ export const AboutMeMainPage = () => {
             style={{ backgroundImage: `url(${bg})` }}
           > 
             <div className="absolute inset-0 bg-black/70 backdrop-blur-sm flex flex-col items-center justify-center text-[#EADEC9] text-white text-center px-4">
-              <h1 className="text-3xl md:text-5xl font-bold mb-4 text-white"> 
-                <Typewriter
-        options={{
-          strings: ["Hello, I'm Vijay Joseph"],
-          autoStart: true,
-          delay: 100,
-        }}
-      />
-    </h1>
+             <h1 className="text-3xl md:text-5xl font-bold mb-4 text-white"> 
+              <Typewriter
+                    options={{
+                      strings: ["Hello, I'm Vijay Joseph"],
+                      autoStart: true,
+                      loop: true,
+                      delay: 100,
+                    }}
+                  />
+              </h1>
               <p className="text-lg md:text-xl text-[#EADEC9]">
                 Chennai’s most acceptable realtor you can trust.
             </p>
