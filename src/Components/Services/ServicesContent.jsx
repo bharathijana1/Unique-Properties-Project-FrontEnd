@@ -3,8 +3,8 @@ import { FaPhoneAlt, FaCheckCircle } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
 import img1 from "../img/Servicesimages/servicesimg1.png";
 import img2 from "../img/Servicesimages/servicesimg2.png";
-import img3 from "../img/Servicesimages/servicesimg3.png";
-import img4 from "../img/Servicesimages/servicesimg4.png";
+import img3 from "../img/Servicesimages/servicesimg4.png";
+import img4 from "../img/Servicesimages/servicesimg3.png";
 
 const servicesData = [
   {
