@@ -1,6 +1,8 @@
 import bg from "../img/Servicesimages/servicesbg.png";
 import ServicesContent from "./ServicesContent"
 import Experience_Client_Location from "../About/Experience_Client_Location";
+import Typewriter from "typewriter-effect";
+
 
 export default function Services() {
   return (
@@ -11,7 +13,16 @@ export default function Services() {
         style={{ backgroundImage: `url(${bg})` }}
       >
         <div className="absolute inset-0 bg-black/70 backdrop-blur-sm flex flex-col items-center justify-center text-[#EADEC9] text-center px-4">
-          <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">Services</h1>
+          <h1 className="text-3xl md:text-5xl font-bold text-white mb-4">
+          <Typewriter
+            options={{
+              strings: ["Services"],
+              autoStart: true,
+              loop: true,
+              delay: 100,
+            }}
+          />
+          </h1>
           <p className="text-lg md:text-xl text-[#EADEC9]">
             The only realtor you will ever want
           </p>
