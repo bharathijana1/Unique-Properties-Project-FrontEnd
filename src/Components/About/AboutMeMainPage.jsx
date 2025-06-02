@@ -14,8 +14,8 @@ export const AboutMeMainPage = () => {
             className="relative h-[400px] md:h-[300px] w-full bg-cover bg-center mb-6"
             style={{ backgroundImage: `url(${bg})` }}
           > 
-            <div className="absolute inset-0 bg-black/70 backdrop-blur-sm flex flex-col items-center justify-center text-white text-center px-4">
-              <h1 className="text-3xl md:text-5xl font-bold mb-4"> 
+            <div className="absolute inset-0 bg-black/70 backdrop-blur-sm flex flex-col items-center justify-center text-[#EADEC9] text-white text-center px-4">
+              <h1 className="text-3xl md:text-5xl font-bold mb-4 text-white"> 
                 <Typewriter
         options={{
           strings: ["Hello, I'm Vijay Joseph"],
