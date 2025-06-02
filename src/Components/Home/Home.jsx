@@ -13,6 +13,8 @@ import BenefitsofWorking from "./BenefitsofWorking";
 import Testimonials from "./Testimonials";
 import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
+import { motion } from "framer-motion";
+
 
 const cards = [
   {
@@ -54,6 +56,12 @@ export default function Home() {
           className="w-full h-[85vh] bg-no-repeat bg-center bg-cover flex flex-col items-center justify-center "
           style={{ backgroundImage: `url(${homeBg})` }}
         >
+          <motion.div
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 2, ease: "easeOut" }}
+            className="flex flex-col items-center"
+          >
           <h1 className="text-5xl md:p-2 font-bold  text-white text-center">
             {/* Vijay Joseph <span className="text-[#2A9D8F]">|</span> Realtor */}
             <Typewriter
@@ -82,6 +90,7 @@ export default function Home() {
             CONTACT ME
           </button>
           </a>
+            </motion.div>
         </div>
 
         {/* Overlapping Card Section */}
