@@ -12,7 +12,7 @@ import HowItWorks from "./HowItWorks";
 import BenefitsofWorking from "./BenefitsofWorking";
 import Testimonials from "./Testimonials";
 import { Link } from "react-router-dom";
-
+import Typewriter from "typewriter-effect";
 
 const cards = [
   {
@@ -55,7 +55,14 @@ export default function Home() {
           style={{ backgroundImage: `url(${homeBg})` }}
         >
           <h1 className="text-5xl md:p-2 font-bold  text-white text-center">
-            Vijay Joseph <span className="text-[#2A9D8F]">|</span> Realtor
+             <Typewriter
+        options={{
+          strings: ["Vijay Joseph | Realtor"],
+          autoStart: true,
+          delay: 100,
+        }}
+      />
+    </h1>
           </h1>
           <p className="text-xl text-center text-[#EADEC9]">
             I deliver the very best in all facets of real estate
