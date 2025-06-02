@@ -2,8 +2,8 @@
 import React, { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi"; // Hamburger icons
-import logo from "./img/logo.png";
-// import logo1 from "./img/logo1.png";
+// import logo from "./img/logo.png";
+import logo1 from "./img/logo1.png";
 import whatsapplogo from "./img/whatsapplogo.png";
 import whatsapplogofloating from "./img/whatsapplogofloating.png";
 
@@ -25,7 +25,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between">
         {/* Logo */}
         <Link to="/">
-        <img src={logo} alt="Logo" className="h-20 w-auto" />
+        <img src={logo1} alt="Logo" className="h-20 w-auto" />
           </Link>
 
         {/* Desktop Menu */}
