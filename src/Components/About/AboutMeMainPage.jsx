@@ -5,6 +5,7 @@ import BenefitsOfWorking from '../Home/BenefitsofWorking';
 import MyValuesCard from './MyValuesCard';
 import AboutmeBG2WithCard from './AboutmeBG2WithCard';
 import Typewriter from "typewriter-effect";
+import { motion } from "framer-motion";
 
 export const AboutMeMainPage = () => {
   return (
@@ -15,7 +16,13 @@ export const AboutMeMainPage = () => {
             style={{ backgroundImage: `url(${bg})` }}
           > 
             <div className="absolute inset-0 bg-black/70 backdrop-blur-sm flex flex-col items-center justify-center text-[#EADEC9] text-white text-center px-4">
-             <h1 className="text-3xl md:text-5xl font-bold mb-4 text-white"> 
+             <motion.div
+            initial={{ y: -100, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            transition={{ duration: 2, ease: "easeOut" }}
+            className="flex flex-col items-center"
+          >
+              <h1 className="text-3xl md:text-5xl font-bold mb-4 text-white"> 
               <Typewriter
                     options={{
                       strings: ["Hello, I'm Vijay Joseph"],
@@ -28,6 +35,7 @@ export const AboutMeMainPage = () => {
               <p className="text-lg md:text-xl text-[#EADEC9]">
                 Chennai’s most acceptable realtor you can trust.
             </p>
+               </motion.div>
             </div>
           </div>
     
