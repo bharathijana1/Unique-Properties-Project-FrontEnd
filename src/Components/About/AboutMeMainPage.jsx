@@ -24,7 +24,6 @@ export const AboutMeMainPage = () => {
         }}
       />
     </h1>
-              </h1>
               <p className="text-lg md:text-xl text-[#EADEC9]">
                 Chennai’s most acceptable realtor you can trust.
             </p>
