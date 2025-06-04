@@ -4,10 +4,10 @@ import agent from "../img/Agent.png";
 
 export default function AboutMe() {
   return (
-    <div className="w-full xl:w-3/5 mx-auto px-4">
+    <div className="w-full lg:w-3/4 mx-auto px-4">
       <div className="flex flex-col-reverse xl:flex-row-reverse gap-6 items-start">
         {/* Agent Image - Right on md+, Top on mobile */}
-        <div className="order-2 xl:order-1 w-full xl:w-2/5 flex justify-center">
+        <div className="order-2 lg:order-1 w-full lg:w-2/5 flex justify-center">
           <img
             src={agent}
             alt="Agent"
@@ -16,7 +16,7 @@ export default function AboutMe() {
         </div>
 
         {/* Text Content */}
-        <div className="order-1 w-full xl:w-2/3 break-words">
+        <div className="order-1 w-full lg:w-2/3 break-words">
           <h2 className="text-3xl sm:text-4xl capitalize mb-4 font-bold text-center">
             About Me
           </h2>
@@ -35,14 +35,14 @@ export default function AboutMe() {
             target="_blank"
             rel="noopener noreferrer">
           <button
-            className="bg-[#2A9D8F] w-full xl:w-3/4 text-white py-3 px-6 uppercase font-semibold hover:bg-[#23765e] transition mt-4"
+            className="bg-[#2A9D8F] w-full md:w-3/4 text-white py-3 px-6 uppercase font-semibold hover:bg-[#23765e] transition mt-4"
             style={{ borderRadius: 0 }}
           >
             Contact Me
           </button>
           </a>
 
-          <div className="flex flex-col sm:flex-row sm:items-center my-4 gap-4 sm:gap-6 text-lg font-medium">
+          <div className="flex flex-col lg:flex-row lg:items-center my-4 gap-4 sm:gap-6 text-lg font-medium">
             <a href="tel:+917418326946" className="flex items-center gap-2 text-[#2A9D8F]">
               <FaPhoneAlt />
               <span className="text-[#586C89]">+91 74183 26946</span>
